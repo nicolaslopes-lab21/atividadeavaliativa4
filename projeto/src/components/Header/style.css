@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: #00bfff;
+}

@@ -1,0 +1,24 @@
+.sobre-nos {
+    min-height: 80vh;
+    padding: 40px;
+}
+
+.sobre-nos h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.sobre-nos p {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.sobre-nos .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
